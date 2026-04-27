@@ -134,4 +134,3 @@ El frontend y el backend se comunican mediante una **API REST** sobre HTTP:
 ## Conclusión
 
 El frontend desarrollado con React implementa una SPA moderna que interactúa con el backend mediante una API REST. Los conceptos de componentes, estado, hooks y enrutamiento se combinan para crear una interfaz dinámica, reactiva y fácil de mantener. La separación en capas (páginas, servicios, componentes) asegura que el proyecto pueda escalar a medida que se agreguen nuevas funcionalidades como edición de tareas, filtros, autenticación de usuarios, etc.
-

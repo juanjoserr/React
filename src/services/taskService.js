@@ -12,10 +12,10 @@ const apiClient = axios.create({
 
 // Datos de prueba para demo (mock)
 let mockTasks = [
-  { id: 1, title: 'Investigar React Router', description: 'Ver documentación oficial y ejemplos', completed: true },
-  { id: 2, title: 'Crear componente TaskItem', description: 'Diseñar la tarjeta de tarea individual', completed: false },
-  { id: 3, title: 'Configurar Vite + React', description: 'Levantar el proyecto frontend', completed: true },
-  { id: 4, title: 'Conectar con backend', description: 'Implementar axios para llamadas API', completed: false },
+  { id: 1, title: 'Investigar React Router', description: 'Ver documentación oficial y ejemplos de React Router Dom para manejar la navegación entre páginas en una SPA.', completed: true, createdAt: '2025-05-01' },
+  { id: 2, title: 'Crear componente TaskItem', description: 'Diseñar la tarjeta de tarea individual con estilos CSS y botones de acción (eliminar y ver detalles).', completed: false, createdAt: '2025-05-03' },
+  { id: 3, title: 'Configurar Vite + React', description: 'Levantar el proyecto frontend usando Vite como bundler y React como librería de componentes.', completed: true, createdAt: '2025-05-05' },
+  { id: 4, title: 'Conectar con backend', description: 'Implementar axios para realizar llamadas API al servidor de tareas (GET, POST, DELETE).', completed: false, createdAt: '2025-05-07' },
 ];
 
 // Cambia esto a false cuando tengas el backend corriendo
